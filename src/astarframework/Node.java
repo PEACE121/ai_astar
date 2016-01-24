@@ -135,7 +135,7 @@ public class Node implements Comparable<Node>
 			return -1;
 		else if (getH() > o.getH())
 			return 1;
-		return 0;
+		return 0;// (int) Math.signum(Math.random() - 0.5);
 	}
 	
 	
